@@ -2,11 +2,12 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:RadarChart" x:Class="RadarChart.MainWindow"
-        Title="MainWindow" Height="394" Width="858">
+        Title="MainWindow" Height="394" Width="1200">
     <Grid>
 
-        <local:RadarChartControl HorizontalAlignment="Left" Height="300" Margin="51,30,0,0" VerticalAlignment="Top" Width="300" NumberOfCorners="5"/>
-        <local:RadarChartControl HorizontalAlignment="Left" Height="300" Margin="489,30,0,0" VerticalAlignment="Top" Width="300" NumberOfCorners="8"/>
-
+        <local:RadarChartControl HorizontalAlignment="Left" Height="300" Margin="41,30,0,0" VerticalAlignment="Top" Width="300" NumberOfCorners="5"/>
+        <local:RadarChartControl HorizontalAlignment="Left" Height="300" Margin="450,30,0,0" VerticalAlignment="Top" Width="300" NumberOfCorners="8"/>
+        <local:RadarChartControl HorizontalAlignment="Left" Height="300" Margin="841,30,0,0" VerticalAlignment="Top" Width="300" NumberOfCorners="12"/>
+        
     </Grid>
 </Window>
